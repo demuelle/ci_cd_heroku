@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { StudentProvider } from './utils/StudentContext';
 import StudentList from './components/StudentList';
+import './jass.css';
 import './app.css';
 
 function App() {
-  const title = ' Consumers';
+  const title = ' Providers';
   useEffect(() => {
     document.title = title;
   }, []);
